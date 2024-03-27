@@ -20,9 +20,9 @@ pred_window = 6
 
 # root_experiment_version = 'exp_7_ph_60'
 # pred_window = 12
-for seed in [2, 3, 4]:
+for seed in [1, 2, 3, 4]:
     for dead_client_ratio in [0.1, 0.3, 0.5, 0.7, 0.9]:
-        experiment_version = root_experiment_version + '_' + str(dead_client_ratio)  + '_seed_' +str(seed)
+        experiment_version = root_experiment_version + '_' + str(dead_client_ratio)  + '_seed_' +str(seed)  if seed != 1 else root_experiment_version + '_' + str(dead_client_ratio)
         for dataset in dataset_list:
             # random_valid = True if dataset == 'replace-bg' else False
             random_valid = False

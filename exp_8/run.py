@@ -15,7 +15,7 @@ import os
 # dataset = 'arises'
 dataset_list = [ 'ohio', 'abc4d', 'ctr3_cgm_only', 'replace-bg']
 
-for seed in [2, 3, 4]:
+for seed in [1, 2, 3, 4]:
     for dataset in dataset_list:
         # random_valid = True if dataset == 'replace-bg' else False\
         random_valid = False    
@@ -28,7 +28,7 @@ for seed in [2, 3, 4]:
         os.environ['PYTHONHASHSEED'] = str(seed)
 
         version = 'coldstart_fl'
-        experiment_version = 'exp_8'  + '_seed_' +str(seed) # ph 30
+        experiment_version = 'exp_8'  + '_seed_' +str(seed) if seed != 1 else 'exp_8' # ph 30
         pred_window = 6
         
         # experiment_version = 'exp_8_ph_60'
