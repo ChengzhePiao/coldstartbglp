@@ -1,3 +1,6 @@
+## Paper Title ##
+Privacy Preserved Blood Glucose Level Cross-Prediction: an Asynchronous Decentralized Federated Learning Approach
+Chengzhe Piao, Taiyu Zhu, Yu Wang, Stephanie E Baldeweg, Paul Taylor, Pantelis Georgiou, Jiahao Sun, Jun Wang, Kezhi Li
 ## Datasets ##
 We introduce four datasets to our experiments, i.e.,  OhioT1DM, ABC4D (NCT02053051), CTR3 (NCT02137512) and REPLACE-BG (NCT02258373).
 
