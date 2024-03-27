@@ -17,7 +17,7 @@ After getting these datasets, please run the codes under the folder "/gen_datase
 
 ### Training and Testing
 
-Please run run_codes.py, then all experiments from "exp\_1" to "exp\_17" will be run by four times and tested cross different datasets.
+Please run "run_codes.py", then all experiments from "exp\_1" to "exp\_17" will be run by four times and tested cross different datasets.
 * 'exp\_11' : 'LR',
 * 'exp\_12' : 'XGBoost',
 * 'exp\_1' : 'LSTM',
