@@ -2,7 +2,7 @@ import runpy
 
         
     
-for num in range(1, 18):
+for num in range(1, 15):
     print('start training' + '=' * 10, num)
     exp = 'exp_' + str(num)
     runpy.run_path(f'./{exp}/run.py')
